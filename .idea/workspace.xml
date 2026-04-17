@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PropertiesComponent">{}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hand-to-hand-back" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hand-to-hand-back" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HandToHandBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hand-to-hand-backedn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.com.poli.geston.HandToHandBackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.poli.geston.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HandToHandBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
