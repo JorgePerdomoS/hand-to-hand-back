@@ -1,0 +1,11 @@
+org/com/poli/geston/domain/WordDTO.class
+org/com/poli/geston/util/WordMapperImpl.class
+org/com/poli/geston/domain/StepDTO.class
+org/com/poli/geston/controller/WordController.class
+org/com/poli/geston/service/WordService.class
+org/com/poli/geston/service/impl/WordServiceImpl.class
+org/com/poli/geston/persistence/entity/WordEntity.class
+org/com/poli/geston/persistence/repository/WordRepository.class
+org/com/poli/geston/HandToHandBackendApplication.class
+org/com/poli/geston/persistence/entity/StepEntity.class
+org/com/poli/geston/util/WordMapper.class

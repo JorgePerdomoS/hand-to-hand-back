@@ -1,0 +1,10 @@
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/domain/StepDTO.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/persistence/entity/StepEntity.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/HandToHandBackendApplication.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/util/WordMapper.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/service/WordService.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/persistence/repository/WordRepository.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/domain/WordDTO.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/service/impl/WordServiceImpl.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/persistence/entity/WordEntity.java
+/home/stiven/Documents/Dev/GestionDeProyectos/hand-to-hand-backend/src/main/java/org/com/poli/geston/controller/WordController.java
