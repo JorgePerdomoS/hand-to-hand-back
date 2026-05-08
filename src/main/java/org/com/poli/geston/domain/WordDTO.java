@@ -11,7 +11,7 @@ public class WordDTO {
     private String word;
     private String description;
     private List<StepDTO> steps;
-    private String videoURL;
+    private String videoUrl;
     private String category;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;

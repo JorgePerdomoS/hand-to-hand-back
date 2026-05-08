@@ -11,22 +11,11 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-16T22:41:39-0500",
+    date = "2026-05-07T22:45:40-0500",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.18 (Amazon.com Inc.)"
 )
 @Component
 public class WordMapperImpl implements WordMapper {
-
-    @Override
-    public WordEntity wordToEntity(WordDTO dto) {
-        if ( dto == null ) {
-            return null;
-        }
-
-        WordEntity wordEntity = new WordEntity();
-
-        return wordEntity;
-    }
 
     @Override
     public WordDTO wordToDTO(WordEntity entity) {
@@ -36,7 +25,34 @@ public class WordMapperImpl implements WordMapper {
 
         WordDTO wordDTO = new WordDTO();
 
+        wordDTO.setSteps( stepsToDTOs( entity.getSteps() ) );
+        wordDTO.setWord( entity.getWord() );
+        wordDTO.setDescription( entity.getDescription() );
+        wordDTO.setVideoUrl( entity.getVideoUrl() );
+        wordDTO.setCategory( entity.getCategory() );
+        wordDTO.setCreatedAt( entity.getCreatedAt() );
+        wordDTO.setUpdatedAt( entity.getUpdatedAt() );
+
         return wordDTO;
+    }
+
+    @Override
+    public WordEntity wordToEntity(WordDTO dto) {
+        if ( dto == null ) {
+            return null;
+        }
+
+        WordEntity wordEntity = new WordEntity();
+
+        wordEntity.setSteps( stepsToEntities( dto.getSteps() ) );
+        wordEntity.setWord( dto.getWord() );
+        wordEntity.setDescription( dto.getDescription() );
+        wordEntity.setVideoUrl( dto.getVideoUrl() );
+        wordEntity.setCategory( dto.getCategory() );
+        wordEntity.setCreatedAt( dto.getCreatedAt() );
+        wordEntity.setUpdatedAt( dto.getUpdatedAt() );
+
+        return wordEntity;
     }
 
     @Override
@@ -46,6 +62,10 @@ public class WordMapperImpl implements WordMapper {
         }
 
         StepEntity stepEntity = new StepEntity();
+
+        stepEntity.setStepNumber( dto.getStepNumber() );
+        stepEntity.setImageData( dto.getImageData() );
+        stepEntity.setInstruction( dto.getInstruction() );
 
         return stepEntity;
     }
@@ -57,6 +77,10 @@ public class WordMapperImpl implements WordMapper {
         }
 
         StepDTO stepDTO = new StepDTO();
+
+        stepDTO.setStepNumber( entity.getStepNumber() );
+        stepDTO.setImageData( entity.getImageData() );
+        stepDTO.setInstruction( entity.getInstruction() );
 
         return stepDTO;
     }

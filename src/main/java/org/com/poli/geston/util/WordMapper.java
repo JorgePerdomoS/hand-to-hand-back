@@ -12,15 +12,15 @@ import java.util.List;
 @Mapper(componentModel = "spring")
 public interface WordMapper {
 
-    WordEntity wordToEntity(WordDTO dto);
-
+    @Mapping(target = "steps", source = "steps")
     WordDTO wordToDTO(WordEntity entity);
 
-    StepEntity stepToEntity(StepDTO dto);
+    @Mapping(target = "steps", source = "steps")
+    WordEntity wordToEntity(WordDTO dto);
 
+    StepEntity stepToEntity(StepDTO dto);
     StepDTO stepToDTO(StepEntity entity);
 
     List<StepEntity> stepsToEntities(List<StepDTO> steps);
-
     List<StepDTO> stepsToDTOs(List<StepEntity> steps);
 }

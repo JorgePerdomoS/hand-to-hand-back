@@ -11,7 +11,7 @@ public class StepEntity {
     @Id
     private String id;
     private Integer stepNumber;
-    private String imageURL;
+    private String imageData;
     private String instruction;
 
 }

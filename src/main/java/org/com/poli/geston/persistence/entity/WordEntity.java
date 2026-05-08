@@ -17,7 +17,7 @@ public class WordEntity {
     private String word;
     private String description;
     private List<StepEntity> steps;
-    private String videoURL;
+    private String videoUrl;
     private String category;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;

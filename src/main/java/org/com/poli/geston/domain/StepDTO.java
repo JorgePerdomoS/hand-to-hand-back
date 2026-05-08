@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class StepDTO {
     private Integer stepNumber;
-    private String imageURL;
+    private String imageData;
     private String instruction;
 
 }
